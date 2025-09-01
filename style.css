@@ -1,0 +1,35 @@
+/* Education with Image */
+.edu-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: #fff;
+    margin-bottom: 1rem;
+    padding: 1.2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+  }
+  
+  .edu-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .edu-card img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #0077ff;
+  }
+  
+  .edu-info h3 {
+    margin-bottom: 0.3rem;
+    color: #000000;
+    font-size: 1.1rem;
+  }
+  
+  .edu-info p {
+    color: #444;
+  }
+  
